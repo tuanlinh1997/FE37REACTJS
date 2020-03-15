@@ -1,0 +1,45 @@
+npm install create-react-app -g (cài lần đầu duy nhất)
+create-react-app fe37reacrjs (câu lệnh tạo project)
+
+npm install: cài lại node_modules
+npm start: chạy project 
+
+=== Buoi 1 ====
+* Component
+    - Stateful Component: Class 
+    - Stateless Component: function
+
+============== Buoi 2 ==============
+* Rendering Elements: {}
+* Handling Events: onClick
+* State
+* List keys
+
+============== Buoi 3 ==============
+* Props
+    + class: sử dụng từ khóa this.props
+    + function: có tham số props
+* Lifting State Up
+* Bài tập giỏ hàng
+
+============== Buoi 4 ==============
+* Bài tập giỏ hàng (tt)
+* Bài tập Usermanagement
+
+============== Buoi 5 ==============
+* Bài tập Usermanagement (done)
+
+============== Buoi 6 ==============
+* Redux
+    npm install redux --save
+	npm install react-redux --save
+	
+	- Action
+	- Reducer
+		+ Root
+		+ Child
+	- Store: quản lý state (chứa dữ liệu)
+
+- mapStateToProps: lấy state trên store chuyển thành props thành tại component để dùng
+- mapDispatchToProps: bắn lên store 1 action. Reducer nhận action đó, tính toán -> trả ra state mới.
+	
