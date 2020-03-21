@@ -2,47 +2,53 @@ import React from "react";
 import "./App.css";
 // import Baitap1 from "./baitap1";
 // import Baitap2 from "./baitap2";
-import RenderingElement from "./rendering-element";
-import HandlingEvent from "./handling-event";
-import ExampleEvent from "./handling-event/example-event";
-import State from "./state";
-import ExampleCar from "./example-car";
-import ListKey from "./list-key";
-import ExampleListKey from "./list-key/example";
-import Props from "./props";
-import BaitapProps from "./bai-tap-props";
-import ShoppingCart from "./shopping-cart";
-import Home from "./user-management/Home";
-import HomeRedux from "./user-management-redux/Home";
+// import RenderingElement from "./rendering-element";
+// import HandlingEvent from "./handling-event";
+// import ExampleEvent from "./handling-event/example-event";
+// import State from "./state";
+// import ExampleCar from "./example-car";
+// import ListKey from "./list-key";
+// import ExampleListKey from "./list-key/example";
+// import Props from "./props";
+// import BaitapProps from "./bai-tap-props";
+// import ShoppingCart from "./shopping-cart";
+// import Home from "./user-management/Home";
+// import HomeRedux from "./user-management-redux/Home";
+// import Lifecycle from "./lifecycle";
+import FormValidation from "./form-validation";
 
 function App() {
   return (
     <div>
       {/* <Baitap1 /> */}
       {/* <Baitap2 /> */}
-      <RenderingElement />
+      {/* <RenderingElement /> */}
       <hr />
-      <HandlingEvent />
+      {/* <HandlingEvent /> */}
       <hr />
-      <ExampleEvent />
+      {/* <ExampleEvent /> */}
       <hr />
-      <State />
+      {/* <State /> */}
       <hr />
-      <ExampleCar />
+      {/* <ExampleCar /> */}
       <hr />
-      <ListKey />
+      {/* <ListKey /> */}
       <hr />
-      <ExampleListKey />
+      {/* <ExampleListKey /> */}
       <hr />
-      <Props />
+      {/* <Props /> */}
       <hr />
-      <BaitapProps />
+      {/* <BaitapProps /> */}
       <hr />
-      <ShoppingCart />
+      {/* <ShoppingCart /> */}
       <hr />
-      <Home />
+      {/* <Home /> */}
       <hr />
-      <HomeRedux />
+      {/* <HomeRedux /> */}
+      <hr />
+      {/* <Lifecycle /> */}
+      
+      <FormValidation />
 
       <br />
       <br />
