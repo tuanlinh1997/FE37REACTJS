@@ -12,38 +12,7 @@ code {
     monospace;
 }
 
-.header {
-  background-color: red;
-  padding: 30px 0;
-  color: white;
-  text-align: center;
-}
-
-.contents {
-  display: flex;
-}
-.contents .content {
-  width: 60%;
-  background-color: green;
-  padding: 100px 0;
-  color: white;
-  text-align: center;
-}
-.contents .sidebar {
-  width: 40%;
-  background-color: orange;
-  padding: 100px 0;
-  color: white;
-  text-align: center;
-}
-
-.footer {
-  background-color: blue;
-  padding: 30px 0;
-  color: white;
-  text-align: center;
-}
-
-.title {
-  color: red;
+.active {
+  background-color: white;
+  color: red !important;
 }

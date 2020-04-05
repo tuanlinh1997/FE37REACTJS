@@ -1,45 +1,41 @@
-npm install create-react-app -g (cài lần đầu duy nhất)
-create-react-app fe37reacrjs (câu lệnh tạo project)
+============== Buoi 8 ==============
+ * Routing (basic)
+    npm install react-router-dom --save
+ * HTTP & Axios
+    npm install axios --save
 
-npm install: cài lại node_modules
-npm start: chạy project 
+============== Buoi 9 ==============
+* HTTP & Axios (Chi tiet Phim)
+* HOC
 
-=== Buoi 1 ====
-* Component
-    - Stateful Component: Class 
-    - Stateless Component: function
+============== Buoi 10 ==============
+* Routing (HomeLayout & AdminLayout)
+* Đăng nhập Admin
 
-============== Buoi 2 ==============
-* Rendering Elements: {}
-* Handling Events: onClick
-* State
-* List keys
 
-============== Buoi 3 ==============
-* Props
-    + class: sử dụng từ khóa this.props
-    + function: có tham số props
-* Lifting State Up
-* Bài tập giỏ hàng
 
-============== Buoi 4 ==============
-* Bài tập giỏ hàng (tt)
-* Bài tập Usermanagement
 
-============== Buoi 5 ==============
-* Bài tập Usermanagement (done)
 
-============== Buoi 6 ==============
-* Redux
-    npm install redux --save
-	npm install react-redux --save
-	
-	- Action
-	- Reducer
-		+ Root
-		+ Child
-	- Store: quản lý state (chứa dữ liệu)
 
-- mapStateToProps: lấy state trên store chuyển thành props thành tại component để dùng
-- mapDispatchToProps: bắn lên store 1 action. Reducer nhận action đó, tính toán -> trả ra state mới.
-	
+
+
+
+
+
+
+
+
+
+
+
+
+npm install redux-thunk --save
+
+import { createStore, applyMiddleware, compose } from "redux";
+import thunk from "redux-thunk";
+
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(
+  rootReducer,
+  composeEnhancers(applyMiddleware(thunk))
+);
